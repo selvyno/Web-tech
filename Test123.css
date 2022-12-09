@@ -1,0 +1,41 @@
+.Head{
+background-color: blanchedalmond;
+text-align:center;
+color: rgb(140, 0, 255);
+border: 100px;
+}
+
+.para{
+    color: brown;
+    text-align: justify;
+}
+
+.logo{
+    align-content   :left;
+    width: 50px;
+}
+
+.img1{
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.Nav{
+    text-align: right;
+    justify-content: space-between;
+    border: 100px;
+    color: springgreen;
+}
+
+.container{
+    background-color: aqua;
+}
+
+.background{
+    background-color: brown;
+}
+
+.cpy{
+    text-align: center;
+}

@@ -1,0 +1,88 @@
+
+body{
+    background-color:hsl(0, 100%, 88%);
+    font-family:roboto;
+    padding: 20px;
+}
+
+.nav{
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 35px;
+
+}
+
+.menu a:any-link{
+   text-decoration: none;
+   font-size: 35px;
+   color:black ;
+   padding: 3px;
+}
+
+.info{
+    font-size: 50px;
+    margin:40px;
+    margin-left: 15px;
+}
+
+.info p{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 55px;
+}
+.info h1:hover{
+  text-decoration: underline;
+}
+.info p:hover{
+  text-decoration: underline;
+ 
+}
+
+.b{
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: space-around;
+   margin-top: 10px;
+}
+
+.nm{
+    width: 400px;
+    height: 400px;
+    background:url('1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: rotate(25deg);
+    border: 2px solid grey;
+}
+
+.gn{
+    width: 400px;
+    height: 400px;
+    background:url('spotify_logo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform:rotate(-10deg);
+    border: 2px solid grey;
+}
+.bl{
+    width: 400px;
+    height: 400px;
+    background:url('im-477335.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform:rotate(-15deg) ;
+    border: 2px solid grey;
+}
+
+.s{
+   margin-top: 50px;
+   
+}
+
+
+@keyframes animate{
+    
+}

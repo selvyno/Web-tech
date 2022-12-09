@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    min-height: 100vh;
+}
+
+.card {
+    position:relative;
+    width: 360px;
+    height: 400px;
+    box-shadow: 5px 10px 50px;
+    padding: 20px;
+}
+.cover{
+    width: 45px;
+    height: 40px;
+}
+
+.name{
+    font-size: 15px;
+}
+
+.card .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .top .userdetails{
+    display: flex;
+    align-items:center ;
+}
+
+.card .top .userdetails .profile{
+    position: relative;
+    width: 40px;
+    height: 40 px;
+
+}
+
+
+.cover{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+}
