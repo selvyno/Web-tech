@@ -1,0 +1,53 @@
+.Bdy{
+    background-color: black;
+}
+
+#clock{
+    /*
+    position: relative;
+    margin: auto;
+    background-color: blue;
+    height: 40vw;
+    width: 40vw;
+    border: 2px solid red;
+    background:url("file:///C:/Users/selvyn/Downloads/Clock-Face-Template-Free-Download1.webp") no-repeat;
+    background-size: 100%;*/
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    border: 7px solid #282828;
+    border-radius: 50%;
+    margin:auto;
+    background-color: rgb(2, 5, 4);
+
+}
+
+#hour , #minute, #second{
+    position: relative;
+  background: #00aeff;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+#hour{
+    width: 1%;
+    height: 23%;
+    top: 28%;
+    left: 49.5%;    
+    display:none;
+}
+
+#minute{
+    width: 1%;
+    height: 45%;
+    top: 12%;
+    left: 49.5%;
+    display: none;
+}
+
+#second{
+    width: 1%;
+    height: 40%;
+    top: 16%;
+    left: 49.5%;
+}
